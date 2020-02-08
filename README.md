@@ -10,7 +10,7 @@ install_github("jacquesattack/kmeanspp")
 ## Usage
 ```
 library(kmeanspp)
-d = faithful %>% rename(x = eruptions, y = waiting)
-kpp_centers = kpp(d,2)
-kmeans(d,centers = kpp_centers)
+data = faithful
+kpp_centers = kpp(data,2)
+kmeans(data,centers = kpp_centers)
 ```
