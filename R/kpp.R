@@ -9,9 +9,9 @@ dist = function(v1,v2) {
 
 #' Calculate initial centers for K-means clustering using the K-means++ algorithm
 #'
-#' @param data An n x 2 data.frame
-#' @param k The desired number of centers to return
-#' @return A data.frame of centers
+#' @param data A data.frame of numeric vectors.
+#' @param k The desired number of centers to return.
+#' @return A data.frame of centers.
 #' @export
 #' @examples
 #' data = faithful
